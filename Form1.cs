@@ -20,7 +20,7 @@ namespace Draftosaurus
 
         private void Log(string titulo, string conteudo)
         {
-            textBoxLog.AppendText("=====================================================" + Environment.NewLine);
+            textBoxLog.AppendText("======================================================" + Environment.NewLine);
             textBoxLog.AppendText(titulo + Environment.NewLine);
             textBoxLog.AppendText("======================================================" + Environment.NewLine);
             textBoxLog.AppendText(conteudo + Environment.NewLine);
@@ -34,7 +34,7 @@ namespace Draftosaurus
         {
             try
             {
-                string retorno = Jogo.ListarPartidas("");
+                string retorno = Jogo.ListarPartidas("A");
                 Log("Jogo.ListarPartidas(\"A\")", retorno);
 
             }
