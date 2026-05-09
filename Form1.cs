@@ -34,7 +34,7 @@ namespace Draftosaurus
         {
             try
             {
-                string retorno = Jogo.ListarPartidas("A");
+                string retorno = Jogo.ListarPartidas("T");
                 Log("Jogo.ListarPartidas(\"A\")", retorno);
 
             }
